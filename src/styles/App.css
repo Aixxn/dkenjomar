@@ -6,7 +6,7 @@
 
 .home-section {
   min-height: 100vh;
-  background-image: url('../images/home.jpg');
+  background-image: linear-gradient(rgba(250, 250, 250, 0.082), rgba(0, 0, 0, 0.082)), url('../images/home.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 
 .title-card-container {
   text-align: left;
-  color: rgb(44, 44, 44);
+  color: rgb(37, 37, 37);
   padding: 15px;
   border-radius: 10px;
   max-width: 840px;
@@ -165,36 +165,107 @@
   text-align: left;
 }
 
-@media (max-width: 968px) {
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .title-card-heading {
+    padding-left: 60px;
+    font-size: 4rem;
+    color: #ffffff;
+  }
+
+  .title-card-subheading {
+    padding-left: 70px;
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+
+  .buttons-container {
+    padding-left: 70px;
+  }
+
   .features-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section {
+    padding: 100px 1.5rem 2rem 1.5rem;
+    background-position: center center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-card-container {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .title-card-heading {
+    padding-left: 0;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .title-card-subheading {
+    padding-left: 0;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .buttons-container {
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .features-section {
+    padding: 3rem 1.5rem;
   }
 
   .feature-title {
     font-size: 2rem;
   }
-}
 
-@media (max-width: 640px) {
+  .feature-subtitle {
+    font-size: 1rem;
+  }
+
   .features-container {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-section {
+    padding: 80px 1rem 2rem 1rem;
+    min-height: 100vh;
   }
   
-  .features-section {
-    padding: 3rem 1.5rem;
+  .title-card-heading {
+    font-size: 2rem;
+    line-height: 1.2;
   }
-  
-  .feature-card {
-    padding: 2rem 1.5rem;
+
+  .title-card-subheading {
+    font-size: 0.95rem;
+  }
+
+  .explore-button {
+    padding: 0.65rem 1.25rem;
+    font-size: 0.95rem;
   }
 
   .feature-title {
     font-size: 1.75rem;
   }
 
-  .feature-subtitle {
-    font-size: 1rem;
+  .feature-header {
+    margin-bottom: 2rem;
+  }
+
+  .features-section {
+    padding: 2.5rem 1rem;
   }
 }

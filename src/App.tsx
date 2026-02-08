@@ -1,6 +1,6 @@
 import Navbar from './Navbar'
-import About from './About'
 import './styles/App.css'
+import About from './About';
 import { HiArrowSmRight } from "react-icons/hi";
 import { MdCleanHands } from "react-icons/md";
 import { FaUserDoctor } from "react-icons/fa6";
@@ -56,7 +56,7 @@ function App() {
           </div>
         </div> 
       </section>
-      <About />
+       <About />
     </>
     
   )

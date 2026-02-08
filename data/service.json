@@ -1,0 +1,222 @@
+{
+  "clinic_info": {
+    "name": "D'KENJOMAR DENTAL CLINIC & LABORATORY",
+    "address": "454 San Rafael St., San Miguel, Manila",
+    "contact": "09065461048",
+    "hours": "Mon-Sat 9am-5pm | Sun 9am-3pm"
+  },
+  "services": [
+    {
+      "category_name": "Complete Dentures",
+      "category_id": "complete_dentures",
+      "items": [
+        {
+          "id": "japan_pontic_complete",
+          "name": "Japan Pontic Complete Dentures",
+          "price_per_arch": "₱2,500",
+          "price_upper_lower": "₱4,500",
+          "image_file": "images/denture-japan.jpg"
+        },
+        {
+          "id": "us_pontic_complete",
+          "name": "US Pontic Complete Dentures",
+          "price_per_arch": "₱3,000",
+          "price_upper_lower": "₱5,500",
+          "image_file": "images/denture-us.jpg"
+        },
+        {
+          "id": "germany_pontic_complete",
+          "name": "Germany Pontic Complete Dentures",
+          "price_per_arch": "₱4,000",
+          "price_upper_lower": "₱7,500",
+          "image_file": "images/denture-germany.jpg"
+        },
+        {
+          "id": "porcelain_trudent",
+          "name": "Porcelain (Trudent)",
+          "price_per_arch": "₱4,000",
+          "price_upper_lower": "₱7,500",
+          "image_file": "images/denture-porcelain.jpg"
+        },
+        {
+          "id": "ivocap",
+          "name": "Ivo Cap",
+          "price_upper_lower": "₱18,000",
+          "note": "Upper & Lower Arches Only",
+          "image_file": "images/ivocap.jpg"
+        },
+        {
+          "id": "thermosen",
+          "name": "Thermosen",
+          "price_upper_lower": "₱25,000",
+          "note": "Upper & Lower Arches Only",
+          "image_file": "images/thermosen.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Denture Add-ons",
+      "category_id": "denture_addons",
+      "items": [
+        {
+          "id": "gold_mesh",
+          "name": "Gold Mesh",
+          "price": "₱500",
+          "type": "add_on",
+          "image_file": "images/addon-gold-mesh.jpg"
+        },
+        {
+          "id": "hi_basis",
+          "name": "Hi-Basis",
+          "price": "₱1,000",
+          "type": "add_on",
+          "image_file": "images/addon-hi-basis.jpg"
+        },
+        {
+          "id": "luci_tone",
+          "name": "Luci Tone",
+          "price": "₱1,500",
+          "type": "add_on",
+          "image_file": "images/addon-luci-tone.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Jacket Crowns & Fixed Bridge",
+      "category_id": "crowns_bridges",
+      "items": [
+        {
+          "id": "plastic_crown",
+          "name": "Plastic Crown",
+          "price": "₱1,500",
+          "unit": "Per Tooth",
+          "image_file": "images/crown-plastic.jpg"
+        },
+        {
+          "id": "pfm_crown",
+          "name": "Porcelain-Fused-to-Metal Crown",
+          "price": "₱3,500",
+          "unit": "Per Tooth",
+          "image_file": "images/crown-pfm.jpg"
+        },
+        {
+          "id": "tilite_crown",
+          "name": "Porcelain-Fused-to-Tilite Crown",
+          "price": "₱7,000",
+          "unit": "Per Tooth",
+          "image_file": "images/crown-tilite.jpg"
+        },
+        {
+          "id": "zirconia_crown",
+          "name": "Zirconia Crown",
+          "price": "₱15,000",
+          "unit": "Per Tooth",
+          "image_file": "images/crown-zirconia.jpg"
+        },
+        {
+          "id": "full_steel_crown",
+          "name": "Full Steel Crown",
+          "price": "₱2,500",
+          "unit": "Per Tooth",
+          "image_file": "images/crown-steel.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Cosmetic Dentistry",
+      "category_id": "cosmetic",
+      "items": [
+        {
+          "id": "cosmetic_restoration",
+          "name": "Cosmetic Restoration",
+          "price": "₱1,000",
+          "note": "Minimum price",
+          "image_file": "images/restoration.jpg"
+        },
+        {
+          "id": "composite_veneers",
+          "name": "Composite Veneers",
+          "price": "₱6,000",
+          "unit": "Per Tooth",
+          "image_file": "images/composite-veneers.jpg"
+        },
+        {
+          "id": "porcelain_veneers_emax",
+          "name": "Porcelain Veneers (Emax)",
+          "price": "₱15,000",
+          "unit": "Per Tooth",
+          "image_file": "images/porcelain-veneers.jpg"
+        },
+        {
+          "id": "teeth_whitening",
+          "name": "Teeth Whitening",
+          "price": "₱5,000",
+          "unit": "Per Session",
+          "image_file": "images/whitening.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Oral Surgery",
+      "category_id": "oral_surgery",
+      "items": [
+        {
+          "id": "upper_wisdom_tooth",
+          "name": "Odontectomy (Upper Wisdom Tooth)",
+          "price": "₱4,000",
+          "note": "Minimum price",
+          "image_file": "images/surgery-upper.jpg"
+        },
+        {
+          "id": "lower_wisdom_tooth",
+          "name": "Odontectomy (Lower Wisdom Tooth)",
+          "price": "₱6,000",
+          "note": "Minimum price",
+          "image_file": "images/surgery-lower.jpg"
+        }
+      ]
+    },
+    {
+      "category_name": "Removable Partial Dentures",
+      "category_id": "partial_dentures",
+      "items": [
+        {
+          "id": "acrylic_japan",
+          "name": "Acrylic Partial - Japan Pontics",
+          "price": "₱400",
+          "unit": "Per Tooth",
+          "image_file": "images/partial-japan.jpg"
+        },
+        {
+          "id": "acrylic_us",
+          "name": "Acrylic Partial - US Pontics",
+          "price": "₱500",
+          "unit": "Per Tooth",
+          "image_file": "images/partial-us.jpg"
+        },
+        {
+          "id": "acrylic_germany",
+          "name": "Acrylic Partial - Germany Pontics",
+          "price": "₱700",
+          "unit": "Per Tooth",
+          "image_file": "images/partial-germany.jpg"
+        },
+        {
+          "id": "valplast_flexible",
+          "name": "Valplast Partial Dentures (Flexible)",
+          "price_per_arch": "₱7,000",
+          "price_upper_lower": "₱13,000",
+          "price_unilateral": "₱3,500",
+          "image_file": "images/partial-valplast.jpg"
+        },
+        {
+          "id": "metal_framework",
+          "name": "1-Piece Metal Framework",
+          "price_per_arch": "₱8,000",
+          "price_upper_lower": "₱14,000",
+          "image_file": "images/partial-metal.jpg"
+        }
+      ]
+    }
+  ]
+}
